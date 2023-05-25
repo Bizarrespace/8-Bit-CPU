@@ -35,7 +35,7 @@ architecture behave of reg_tb is
 
 begin
 
-    -- Instantiate 'reg' entity as 'reg1' and connect its ports to signals
+    -- Instantiate 'reg' component as 'reg1' and connect its ports to signals
     reg1 : reg port map (
             clk => clk_sig,
             reset => reset_sig,
