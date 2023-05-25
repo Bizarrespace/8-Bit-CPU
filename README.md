@@ -19,3 +19,14 @@ Showing the reset working, making count 0 again
 Showing reset signal flipped to 0, and the counting starting again
 ![reset0,counting](https://github.com/Bizarrespace/8-Bit-CPU/assets/78052960/a800da23-feb9-41ae-ad16-6ca15bc053e1)
 
+
+# General Purpose Register
+
+gReg.vhd & gReg_tb.vhd
+
+
+Showing that when load is 1, output ALU as set the value in input
+![gReg_ShowingLoad1OutputALUHasValue](https://github.com/Bizarrespace/8-Bit-CPU/assets/78052960/13326e7c-c631-4310-9a06-0da85f6974cf)
+
+Showing that when Output_en is 1 the value of input only then gets put into output
+![gReg_out_en1outputRegValue](https://github.com/Bizarrespace/8-Bit-CPU/assets/78052960/d8e92bbd-7c82-4f47-8363-47fa1d6a2879)
