@@ -1,7 +1,7 @@
 # 8-Bit-CPU
 
 # Program Counter
-
+Use ModelSim to run the code
 
 pc.vhd & pc_tb.vhd
 
